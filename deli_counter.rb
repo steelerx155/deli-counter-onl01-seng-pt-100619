@@ -26,7 +26,7 @@ end
    currently_serving << "" #{b}. #{up}"
     binding.pry
     end
- puts currently_serving
+ puts currently_serving[1]
   
 
   end
