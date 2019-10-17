@@ -21,7 +21,7 @@ end
  if deli.empty? 
    puts "There is nobody waiting to be served!"
   else
- currently_serving = "Currently serving #{deli}.first"
+ currently_serving = "Currently serving deli.first"
  deli.each.with_index(1) do |up, b|
    currently_serving << " #{b}. #{up}"
     # binding.pry
