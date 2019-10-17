@@ -1,16 +1,17 @@
 # Write your code here.
-require 'pry'
-def katz_deli []
+
+def line(deli)
+  if deli.empty?
+    puts "The line is currently empty."
+  else
+    current_line = "The line is currently:" 
+    deli.each.with_index(1) do |name, a|
+  current_line << " #{a}. #{name}"  
+  end
+  puts current_line
+  end
 end
 
-def line(place_in_line)
-  place_in_line = []
-    name = ["Logan", "Avi", "Spencer"]
-  puts "The line is currently: #{name}."
-  if place_in_line = 0 
-    "The line is currently empty."
-    if place_in_line > 1 
-      puts "the line is currently: {name}"
-      place_in_line.collect.with_index(1) do |queue, index|
-        "The line is currently: #{index}., #{name}"
+def take_a_number(deli, last_in_line)
+ 
 end
