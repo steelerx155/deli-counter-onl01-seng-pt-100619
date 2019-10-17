@@ -24,7 +24,7 @@ end
  currently_serving = "Currently serving #{deli}"
  deli.each.with_index(1) do |up, b|
    currently_serving << "" #{b}. #{up}"
-    # binding.pry
+    binding.pry
     end
  puts currently_serving
   
