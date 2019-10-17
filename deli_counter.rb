@@ -21,13 +21,8 @@ end
  if deli.empty? 
    puts "There is nobody waiting to be served!"
   else
- currently_serving = "Currently serving #{deli}"
- deli.each.with_index(1) do |up, b|
-   currently_serving << "" #{b}. #{up}"
-   deli.shift
+  puts currently_serving = "Currently serving #{deli[0]}."
+ deli.shift
+    
  end
- puts currently_serving
-  
-
-  end
 end
