@@ -24,9 +24,5 @@ end
  currently_serving = "Currently serving #{deli[0]}"
  deli.shift
     end
- puts currently_serving
  
-  
-
-  end
 end
