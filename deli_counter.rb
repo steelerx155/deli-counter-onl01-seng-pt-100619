@@ -27,7 +27,7 @@ end
     # binding.pry
     end
  puts currently_serving
- deli.first
+ 
   
 
   end
