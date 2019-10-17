@@ -1,5 +1,5 @@
 # Write your code here.
-
+require 'pry'
 def line(deli)
   if deli.empty?
     puts "The line is currently empty."
@@ -16,3 +16,18 @@ deli << name
 puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
   end
+  
+  def now_serving(deli)
+ if deli.empty? 
+   puts "There is nobody waiting to be served!"
+  else
+ currently_serving = "Currently serving #{deli}"
+ deli.each.with_index(1) do |up, b|
+   currently_serving << "" #{b}. #{up}"
+   deli.shift
+ end
+ puts currently_serving
+  
+
+  end
+end
